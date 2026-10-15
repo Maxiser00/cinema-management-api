@@ -1,0 +1,13 @@
+@CinemaAPI_HostAddress = http://localhost:5148
+
+### Get all movies
+GET {{CinemaAPI_HostAddress}}/api/Movie
+Accept: application/json
+
+### Get all actors
+GET {{CinemaAPI_HostAddress}}/api/Actor
+Accept: application/json
+
+### Get all categories
+GET {{CinemaAPI_HostAddress}}/api/Category
+Accept: application/json
